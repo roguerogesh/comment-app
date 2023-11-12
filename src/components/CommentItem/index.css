@@ -1,0 +1,91 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.list-item {
+  background-color: #ffffff;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 2px solid #dee0e3;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.profile-letter {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.user-name {
+  color: #334155;
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.date {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.comments {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.like-and-delete {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.liked-img {
+  width: 40px;
+}
+
+.delete-img {
+  width: 40px;
+}
